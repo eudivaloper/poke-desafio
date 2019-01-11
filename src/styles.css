@@ -1,1 +1,29 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+  font-family: monospace;
+  background: #eceff1;
+  box-sizing: border-box;
+}
+*,
+:after,
+:before {
+  box-sizing: inherit;
+}
+h1 {
+  letter-spacing: -5px;
+  font-family: 'Bangers', cursive;
+  color: #ffcb05;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #0071b9;
+  text-align: center;
+  font-size: 151px;
+  margin: 50px;
+}
+ul li {
+  background: lightblue;
+  list-style: none;
+  font-size: 24px;
+  padding: 20px;
+  box-shadow: 2px 0 10px rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: space-between;
+}
